@@ -1,4 +1,6 @@
 import Header from "../components/Header";
+import Grid from "../components/Grid";
+
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -23,6 +25,7 @@ function HomePage() {
     <>
       <GlobalStyle />
       <Header />
+      <Grid />
     </>
   );
 }
